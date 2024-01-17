@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #86676d;
+}
+
+#left {
+    position: relative;
+    height: 100%;
+    width: 45%;
+    
+}
+
+#nav {
+    display: flex;
+    height: 20%;
+    width: 100%;
+    
+}
+
+#nav h3{
+    margin: 30px 40px;
+    font-family: "gilroy";
+    letter-spacing: 3px;
+    color: #fff;
+
+}
+
+#nav a{
+    margin-top: 5%;
+    margin-left: 8%;
+    text-decoration: none;
+    color: #fff;
+}
+
+#centerimg {
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(https://images.statusfacebook.com/profile_pictures/actress/Rashmika-Mandanna/rashmika-mandanna-262.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+#centerimg #tex {
+    position: absolute;
+    top: 110%;
+    height: 120px;
+    width: 100%;
+    /* background-color: red; */
+}
+#tex {
+   
+    display: flex;
+}
+
+#right1 {
+    display: flex;
+    margin-left: 10px;
+    width: 70%;
+}
+p {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 10px;
+    color: #fff;
+    line-height: 20px;
+    
+}
+ #left1{
+    width: 30%;
+   
+ }
+#left1 h5 {
+    
+   margin-top: 5px; 
+   color: #fff;
+   margin-bottom: 20px;
+}
+
+#center {
+    position: relative;
+    height: 100%;
+    width: 45%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1673809128379-15481fb16996?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+#box {
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    top: 60%;
+    right: -60px;
+    background-image: url(https://th.bing.com/th/id/R.48bad0a68cdbf598c44020400389396d?rik=%2bUNeKZI7nBMEHA&riu=http%3a%2f%2fyesofcorsa.com%2fwp-content%2fuploads%2f2017%2f02%2fButterfly-High-Quality-Wallpaper.jpg&ehk=EqliSseoe650tnC9u%2b1PqwE8XgUzC4yf7dlxrD2URxY%3d&risl=&pid=ImgRaw&r=0);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#left2 {
+    
+    height: 100%;
+    width: 20%;
+    background-color: #fff;
+}
+
+#icon1 {
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#icon2 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+#right {
+    position: relative;
+    height: 100%;
+    width: 10%;
+    color: #fff;   
+}
+
+#right i{
+    position: absolute;
+    top: 5%;
+    right: 60px;
+}
+
+#hometext {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 45%;
+    transform-origin: 0% 50%;
+    transform: rotate(-90deg);
+    left: 60px;
+    gap: 40px;
+}
+
+#hometext a {
+    text-decoration: none;
+    color: #fff;
+    rotate: 180deg;
+}
+
+#maincontant {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    width: 90%;
+    
+}
+
+#maincontant h1 {
+    font-size: 100px;
+    font-weight: 400;
+    font-family: "gilroy";
+    
+}
+
+#scroll {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    transform-origin: 0% 50%;
+    transform: rotate(-90deg);
+    left: 60px;
+    gap: 40px;
+}
+
+#scroll_line {
+    width: 120px;
+    height: 2px;
+    background-color: #fff;
+
+}
+
+
+#scroll_text h6 {
+    letter-spacing: 5px;
+    color: #fff;
+    font-family: "gelory";
+    text-transform: uppercase;
+}
